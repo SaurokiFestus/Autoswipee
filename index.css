@@ -1,0 +1,48 @@
+body{
+
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("https://media.istockphoto.com/photos/golden-key-and-puzzle-picture-id507400394?s=612x612");
+    background-size: cover;
+   
+}
+
+.container{
+    position: relative;
+    margin-top: 100px; 
+    background-image: linear-gradient(to right, grey , black);
+    border-radius: 20px;
+    width: 450px;
+    height: auto;
+    
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgb(74, 111, 99);
+    border-radius: 15px;
+    color: white;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: aqua;
+}
+
+#username_error, #pass_error{
+   color: rgb(223, 44, 44);
+   margin-top: 6px;
+   margin-left: 20px;
+   display: none;
+}
+
+span{
+    color: rgb(0, 127, 152);
+}
